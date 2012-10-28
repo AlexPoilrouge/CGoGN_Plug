@@ -1,0 +1,1307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>Visualizator@build</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.makeBuilder</name>
+			<triggers>clean,full,incremental,</triggers>
+			<arguments>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.cleanBuildTarget</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableCleanBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.append_environment</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.stopOnError</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enabledIncrementalBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.command</key>
+					<value>/usr/bin/make</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.contents</key>
+					<value>org.eclipse.cdt.make.core.activeConfigSettings</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.inc</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.arguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildLocation</key>
+					<value>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.useDefaultBuildCmd</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.environment</key>
+					<value>VERBOSE=1|CMAKE_NO_VERBOSE=1|</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableFullBuild</key>
+					<value>true</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.auto</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.enableAutoBuild</key>
+					<value>false</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.target.clean</key>
+					<value>clean</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.fullBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.buildArguments</key>
+					<value></value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.build.location</key>
+					<value>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.make.core.autoBuildTarget</key>
+					<value>all</value>
+				</dictionary>
+				<dictionary>
+					<key>org.eclipse.cdt.core.errorOutputParser</key>
+					<value>org.eclipse.cdt.core.MakeErrorParser;org.eclipse.cdt.core.GCCErrorParser;org.eclipse.cdt.core.GASErrorParser;org.eclipse.cdt.core.GLDErrorParser;</value>
+				</dictionary>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.cdt.make.core.ScannerConfigBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.cdt.core.ccnature</nature>
+		<nature>org.eclipse.cdt.make.core.makeNature</nature>
+		<nature>org.eclipse.cdt.make.core.ScannerConfigNature</nature>
+		<nature>org.eclipse.cdt.core.cnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>[Subprojects]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window//window.ui</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/forms/window.ui</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window//newSceneDialog.ui</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/forms/newSceneDialog.ui</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window//cameraViewDialog.ui</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/forms/cameraViewDialog.ui</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window//cameraOptionDialog.ui</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/forms/cameraOptionDialog.ui</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window//cameraSceneDialog.ui</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/forms/cameraSceneDialog.ui</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window//globalCameraDialog.ui</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/forms/globalCameraDialog.ui</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window//pluginDialog.ui</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/forms/pluginDialog.ui</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window//linkViewDialog.ui</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/forms/linkViewDialog.ui</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window//resources.qrc</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/resources/resources.qrc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Source Files/main.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/main.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Source Files/window.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/interface/window.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Source Files/system.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/interface/system.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Source Files/view.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/visualization/view.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Source Files/scene.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/visualization/scene.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Source Files/camera.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/visualization/camera.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Source Files/splitArea.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/interface/splitArea.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Source Files/newSceneDialog.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/dialogs/newSceneDialog.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Source Files/sceneSelector.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/dialogs/sceneSelector.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Source Files/viewButtonArea.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/interface/viewButtonArea.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Source Files/cameraViewDialog.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/dialogs/cameraViewDialog.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Source Files/cameraOptionDialog.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/dialogs/cameraOptionDialog.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Source Files/cameraSceneDialog.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/dialogs/cameraSceneDialog.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Source Files/globalCameraDialog.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/dialogs/globalCameraDialog.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Source Files/pluginDialog.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/dialogs/pluginDialog.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Source Files/linkViewDialog.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/dialogs/linkViewDialog.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Source Files/vboHandler.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/visualization/vboHandler.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Source Files/moc_window.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/__/headers/interface/moc_window.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Source Files/moc_view.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/__/headers/visualization/moc_view.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Source Files/moc_splitArea.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/__/headers/interface/moc_splitArea.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Source Files/moc_newSceneDialog.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/__/headers/dialogs/moc_newSceneDialog.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Source Files/moc_sceneSelector.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/__/headers/dialogs/moc_sceneSelector.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Source Files/moc_viewButtonArea.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/__/headers/interface/moc_viewButtonArea.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Source Files/moc_cameraViewDialog.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/__/headers/dialogs/moc_cameraViewDialog.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Source Files/moc_cameraOptionDialog.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/__/headers/dialogs/moc_cameraOptionDialog.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Source Files/moc_cameraSceneDialog.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/__/headers/dialogs/moc_cameraSceneDialog.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Source Files/moc_globalCameraDialog.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/__/headers/dialogs/moc_globalCameraDialog.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Source Files/moc_pluginDialog.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/__/headers/dialogs/moc_pluginDialog.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Source Files/moc_linkViewDialog.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/__/headers/dialogs/moc_linkViewDialog.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Source Files/qrc_resources.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/qrc_resources.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Header Files/ui_window.h</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/ui_window.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Header Files/ui_newSceneDialog.h</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/ui_newSceneDialog.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Header Files/ui_cameraViewDialog.h</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/ui_cameraViewDialog.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Header Files/ui_cameraOptionDialog.h</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/ui_cameraOptionDialog.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Header Files/ui_cameraSceneDialog.h</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/ui_cameraSceneDialog.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Header Files/ui_globalCameraDialog.h</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/ui_globalCameraDialog.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Header Files/ui_pluginDialog.h</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/ui_pluginDialog.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Header Files/ui_linkViewDialog.h</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/ui_linkViewDialog.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/CMake Rules/moc_window.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/__/headers/interface/moc_window.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/CMake Rules/moc_view.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/__/headers/visualization/moc_view.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/CMake Rules/moc_splitArea.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/__/headers/interface/moc_splitArea.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/CMake Rules/moc_newSceneDialog.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/__/headers/dialogs/moc_newSceneDialog.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/CMake Rules/moc_sceneSelector.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/__/headers/dialogs/moc_sceneSelector.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/CMake Rules/moc_viewButtonArea.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/__/headers/interface/moc_viewButtonArea.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/CMake Rules/moc_cameraViewDialog.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/__/headers/dialogs/moc_cameraViewDialog.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/CMake Rules/moc_cameraOptionDialog.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/__/headers/dialogs/moc_cameraOptionDialog.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/CMake Rules/moc_cameraSceneDialog.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/__/headers/dialogs/moc_cameraSceneDialog.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/CMake Rules/moc_globalCameraDialog.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/__/headers/dialogs/moc_globalCameraDialog.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/CMake Rules/moc_pluginDialog.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/__/headers/dialogs/moc_pluginDialog.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/CMake Rules/moc_linkViewDialog.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/__/headers/dialogs/moc_linkViewDialog.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] Window/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Spiral</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Spiral/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Spiral/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Spiral/Source Files/visualPlugin.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/plugins/visualPlugin.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Spiral/Source Files/spiral.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/plugins/source/spiral.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Spiral/Source Files/moc_visualPlugin.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/plugins/__/headers/plugins/moc_visualPlugin.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Spiral/Source Files/moc_spiral.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/plugins/headers/moc_spiral.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Spiral/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Spiral/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Spiral/CMake Rules/moc_visualPlugin.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/plugins/__/headers/plugins/moc_visualPlugin.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Spiral/CMake Rules/moc_spiral.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/plugins/headers/moc_spiral.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Spiral/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Spiral/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Adds</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Adds/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Adds/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Adds/Source Files/visualPlugin.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/plugins/visualPlugin.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Adds/Source Files/tuto5Adds.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/plugins/source/tuto5Adds.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Adds/Source Files/moc_visualPlugin.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/plugins/__/headers/plugins/moc_visualPlugin.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Adds/Source Files/moc_tuto5Adds.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/plugins/headers/moc_tuto5Adds.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Adds/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Adds/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Adds/CMake Rules/moc_visualPlugin.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/plugins/__/headers/plugins/moc_visualPlugin.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Adds/CMake Rules/moc_tuto5Adds.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/plugins/headers/moc_tuto5Adds.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Adds/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Adds/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Geom</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Geom/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Geom/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Geom/Source Files/visualPlugin.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/plugins/visualPlugin.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Geom/Source Files/tuto5Geom.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/plugins/source/tuto5Geom.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Geom/Source Files/moc_visualPlugin.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/plugins/__/headers/plugins/moc_visualPlugin.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Geom/Source Files/moc_tuto5Geom.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/plugins/headers/moc_tuto5Geom.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Geom/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Geom/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Geom/CMake Rules/moc_visualPlugin.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/plugins/__/headers/plugins/moc_visualPlugin.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Geom/CMake Rules/moc_tuto5Geom.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/plugins/headers/moc_tuto5Geom.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Geom/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Geom/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Topo</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Topo/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Topo/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Topo/Source Files/visualPlugin.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/plugins/visualPlugin.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Topo/Source Files/tuto5Topo.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/plugins/source/tuto5Topo.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Topo/Source Files/moc_visualPlugin.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/plugins/__/headers/plugins/moc_visualPlugin.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Topo/Source Files/moc_tuto5Topo.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/plugins/headers/moc_tuto5Topo.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Topo/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Topo/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Topo/CMake Rules/moc_visualPlugin.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/plugins/__/headers/plugins/moc_visualPlugin.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Topo/CMake Rules/moc_tuto5Topo.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Release/plugins/headers/moc_tuto5Topo.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Topo/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5Topo/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD//window.ui</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/forms/window.ui</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD//newSceneDialog.ui</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/forms/newSceneDialog.ui</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD//cameraViewDialog.ui</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/forms/cameraViewDialog.ui</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD//cameraOptionDialog.ui</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/forms/cameraOptionDialog.ui</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD//cameraSceneDialog.ui</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/forms/cameraSceneDialog.ui</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD//globalCameraDialog.ui</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/forms/globalCameraDialog.ui</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD//pluginDialog.ui</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/forms/pluginDialog.ui</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD//linkViewDialog.ui</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/forms/linkViewDialog.ui</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD//resources.qrc</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/resources/resources.qrc</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Source Files/main.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/main.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Source Files/window.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/interface/window.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Source Files/system.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/interface/system.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Source Files/view.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/visualization/view.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Source Files/scene.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/visualization/scene.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Source Files/camera.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/visualization/camera.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Source Files/splitArea.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/interface/splitArea.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Source Files/newSceneDialog.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/dialogs/newSceneDialog.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Source Files/sceneSelector.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/dialogs/sceneSelector.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Source Files/viewButtonArea.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/interface/viewButtonArea.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Source Files/cameraViewDialog.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/dialogs/cameraViewDialog.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Source Files/cameraOptionDialog.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/dialogs/cameraOptionDialog.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Source Files/cameraSceneDialog.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/dialogs/cameraSceneDialog.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Source Files/globalCameraDialog.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/dialogs/globalCameraDialog.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Source Files/pluginDialog.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/dialogs/pluginDialog.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Source Files/linkViewDialog.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/dialogs/linkViewDialog.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Source Files/vboHandler.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/visualization/vboHandler.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Source Files/moc_window.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/__/headers/interface/moc_window.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Source Files/moc_view.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/__/headers/visualization/moc_view.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Source Files/moc_splitArea.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/__/headers/interface/moc_splitArea.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Source Files/moc_newSceneDialog.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/__/headers/dialogs/moc_newSceneDialog.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Source Files/moc_sceneSelector.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/__/headers/dialogs/moc_sceneSelector.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Source Files/moc_viewButtonArea.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/__/headers/interface/moc_viewButtonArea.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Source Files/moc_cameraViewDialog.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/__/headers/dialogs/moc_cameraViewDialog.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Source Files/moc_cameraOptionDialog.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/__/headers/dialogs/moc_cameraOptionDialog.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Source Files/moc_cameraSceneDialog.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/__/headers/dialogs/moc_cameraSceneDialog.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Source Files/moc_globalCameraDialog.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/__/headers/dialogs/moc_globalCameraDialog.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Source Files/moc_pluginDialog.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/__/headers/dialogs/moc_pluginDialog.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Source Files/moc_linkViewDialog.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/__/headers/dialogs/moc_linkViewDialog.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Source Files/qrc_resources.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/qrc_resources.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Header Files/ui_window.h</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/ui_window.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Header Files/ui_newSceneDialog.h</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/ui_newSceneDialog.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Header Files/ui_cameraViewDialog.h</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/ui_cameraViewDialog.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Header Files/ui_cameraOptionDialog.h</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/ui_cameraOptionDialog.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Header Files/ui_cameraSceneDialog.h</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/ui_cameraSceneDialog.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Header Files/ui_globalCameraDialog.h</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/ui_globalCameraDialog.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Header Files/ui_pluginDialog.h</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/ui_pluginDialog.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Header Files/ui_linkViewDialog.h</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/ui_linkViewDialog.h</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/CMake Rules/moc_window.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/__/headers/interface/moc_window.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/CMake Rules/moc_view.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/__/headers/visualization/moc_view.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/CMake Rules/moc_splitArea.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/__/headers/interface/moc_splitArea.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/CMake Rules/moc_newSceneDialog.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/__/headers/dialogs/moc_newSceneDialog.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/CMake Rules/moc_sceneSelector.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/__/headers/dialogs/moc_sceneSelector.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/CMake Rules/moc_viewButtonArea.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/__/headers/interface/moc_viewButtonArea.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/CMake Rules/moc_cameraViewDialog.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/__/headers/dialogs/moc_cameraViewDialog.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/CMake Rules/moc_cameraOptionDialog.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/__/headers/dialogs/moc_cameraOptionDialog.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/CMake Rules/moc_cameraSceneDialog.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/__/headers/dialogs/moc_cameraSceneDialog.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/CMake Rules/moc_globalCameraDialog.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/__/headers/dialogs/moc_globalCameraDialog.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/CMake Rules/moc_pluginDialog.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/__/headers/dialogs/moc_pluginDialog.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/CMake Rules/moc_linkViewDialog.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/__/headers/dialogs/moc_linkViewDialog.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[exe] WindowD/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] SpiralD</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] SpiralD/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] SpiralD/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] SpiralD/Source Files/visualPlugin.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/plugins/visualPlugin.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] SpiralD/Source Files/spiral.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/plugins/source/spiral.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] SpiralD/Source Files/moc_visualPlugin.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/plugins/__/headers/plugins/moc_visualPlugin.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] SpiralD/Source Files/moc_spiral.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/plugins/headers/moc_spiral.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] SpiralD/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] SpiralD/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] SpiralD/CMake Rules/moc_visualPlugin.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/plugins/__/headers/plugins/moc_visualPlugin.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] SpiralD/CMake Rules/moc_spiral.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/plugins/headers/moc_spiral.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] SpiralD/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] SpiralD/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5AddsD</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5AddsD/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5AddsD/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5AddsD/Source Files/visualPlugin.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/plugins/visualPlugin.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5AddsD/Source Files/tuto5Adds.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/plugins/source/tuto5Adds.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5AddsD/Source Files/moc_visualPlugin.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/plugins/__/headers/plugins/moc_visualPlugin.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5AddsD/Source Files/moc_tuto5Adds.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/plugins/headers/moc_tuto5Adds.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5AddsD/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5AddsD/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5AddsD/CMake Rules/moc_visualPlugin.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/plugins/__/headers/plugins/moc_visualPlugin.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5AddsD/CMake Rules/moc_tuto5Adds.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/plugins/headers/moc_tuto5Adds.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5AddsD/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5AddsD/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5GeomD</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5GeomD/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5GeomD/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5GeomD/Source Files/visualPlugin.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/plugins/visualPlugin.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5GeomD/Source Files/tuto5Geom.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/plugins/source/tuto5Geom.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5GeomD/Source Files/moc_visualPlugin.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/plugins/__/headers/plugins/moc_visualPlugin.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5GeomD/Source Files/moc_tuto5Geom.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/plugins/headers/moc_tuto5Geom.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5GeomD/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5GeomD/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5GeomD/CMake Rules/moc_visualPlugin.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/plugins/__/headers/plugins/moc_visualPlugin.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5GeomD/CMake Rules/moc_tuto5Geom.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/plugins/headers/moc_tuto5Geom.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5GeomD/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5GeomD/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5TopoD</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5TopoD/</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5TopoD/Source Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5TopoD/Source Files/visualPlugin.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/source/plugins/visualPlugin.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5TopoD/Source Files/tuto5Topo.cpp</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/plugins/source/tuto5Topo.cpp</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5TopoD/Source Files/moc_visualPlugin.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/plugins/__/headers/plugins/moc_visualPlugin.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5TopoD/Source Files/moc_tuto5Topo.cxx</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/plugins/headers/moc_tuto5Topo.cxx</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5TopoD/Header Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5TopoD/CMake Rules</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5TopoD/CMake Rules/moc_visualPlugin.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/plugins/__/headers/plugins/moc_visualPlugin.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5TopoD/CMake Rules/moc_tuto5Topo.cxx.rule</name>
+			<type>1</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/build/Debug/plugins/headers/moc_tuto5Topo.cxx.rule</location>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5TopoD/Resources</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>[Targets]/[lib] Tuto5TopoD/Object Files</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>bin</name>
+			<type>2</type>
+			<location>/home/hurstel/Documents/SOCIS2012/SOCIS2012/Visualizator/bin</location>
+		</link>
+	</linkedResources>
+</projectDescription>
